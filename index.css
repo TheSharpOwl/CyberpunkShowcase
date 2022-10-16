@@ -1,9 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Electrolize);
+
 .header-container {
     background-color:#002746;
     width: 100%;
 }
 body {
     margin: 0;
+    font-family: 'Electrolize';
 }
 .header {
     display: flex;
@@ -12,19 +15,30 @@ body {
     margin-right: 10%;
     text-align: center;
 }
+
+.logo {
+    display: flex;
+    flex: 1;
+    align-content: start;
+}
+
 .header-links {
     display: flex;
     text-align: center;
     align-items: center;
-    gap: 40%;
+    justify-content: flex-end;
+    gap: 10%;
+    /* align-content: end; */ /* TODO seems not useful here but kept it for now */
     color: #ffff0b;
-
+    flex: 1;
 }
 
 div.header-links ul {
 padding-left: 0;
 white-space: nowrap;
+font-size: 27px;
 }
+
 .header-image {
     height: 115px;
     width: auto;
