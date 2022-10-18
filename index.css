@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 
+.yellow-over-blue {
+    background-color:#002746;
+    color: #ffff0b;
+}
 .header-container {
     background-color:#002746;
     width: 100%;
@@ -48,3 +52,14 @@ font-size: 27px;
 ul {
     list-style-type: none;
   }
+
+.banner {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 2%
+}
+
+.banner img {
+    width: 35%;
+}
