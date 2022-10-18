@@ -57,11 +57,17 @@ ul {
     padding: 1.5%;
     display: flex;
     justify-content: center;
-    gap: 2%
+    gap: 2%;
+    font-weight: bolder;
 }
 
 .banner img {
     width: 35%;
+}
+
+.banner-text-container {
+    display: flex;
+    align-items: center;
 }
 
 html {
