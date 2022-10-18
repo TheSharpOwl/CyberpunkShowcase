@@ -54,7 +54,7 @@ ul {
   }
 
 .banner {
-    padding: 10%;
+    padding: 1.5%;
     display: flex;
     justify-content: center;
     gap: 2%
@@ -62,4 +62,12 @@ ul {
 
 .banner img {
     width: 35%;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    background-color:#002746;
 }
