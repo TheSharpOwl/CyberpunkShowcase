@@ -18,12 +18,14 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .logo {
     display: flex;
     flex: 1;
     align-content: start;
+    flex-wrap: wrap;
 }
 
 .header-links {
@@ -35,6 +37,7 @@ body {
     /* align-content: end; */ /* TODO seems not useful here but kept it for now */
     color: #ffff0b;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 div.header-links ul {
@@ -59,10 +62,12 @@ ul {
     justify-content: center;
     gap: 2%;
     font-weight: bolder;
+    flex-wrap: wrap;
 }
 
 .banner img {
     width: 35%;
+    min-width: 400px;
 }
 
 .banner-text-container {
