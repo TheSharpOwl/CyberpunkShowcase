@@ -72,7 +72,8 @@ ul {
 
 .banner-text-container {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 html {
@@ -81,4 +82,23 @@ html {
 
 body {
     background-color:#002746;
+}
+
+.sign-up-button {
+    margin: 0 auto;
+    display: block;
+    /* padding: 15px 20px; */
+    width: 140px;
+    height: 40px;
+    font-family: 'Electrolize';
+    color: #002746;
+    font-weight: 900;
+    font-size: large;
+    border:none;
+    border-radius:10px;
+    background-color: #ffbf00;
+}
+
+.sign-up-button:hover {
+    background-color: red;
 }
