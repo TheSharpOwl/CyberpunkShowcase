@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 
 .yellow-over-blue {
-    background-color:#002746;
+    background-color:#091833;
     color: #ffff0b;
 }
 .header-container {
-    background-color:#002746;
+    background-color:#091833;
     width: 100%;
 }
 body {
@@ -81,7 +81,7 @@ html {
 }
 
 body {
-    background-color:#002746;
+    background-color:#091833;
 }
 
 .sign-up-button {
@@ -91,8 +91,8 @@ body {
     width: 140px;
     height: 40px;
     font-family: 'Electrolize';
-    color: #002746;
-    font-weight: 900;
+    color: #091833;
+    font-weight: 1000;
     font-size: large;
     border:none;
     border-radius:10px;
@@ -101,4 +101,23 @@ body {
 
 .sign-up-button:hover {
     background-color: red;
+}
+
+
+.images-strip {
+    background-color: #0ABDC6;
+/* TODO add a sentence in the upper div of this and make it flex box with 2 elements above each other*/
+}
+
+.images-show {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 5% 0;
+}
+
+.image-in-show {
+    width: 300px;
+    height: auto;
 }
