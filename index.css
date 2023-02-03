@@ -106,15 +106,21 @@ body {
 
 .images-strip {
     background-color: #0ABDC6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
 /* TODO add a sentence in the upper div of this and make it flex box with 2 elements above each other*/
 }
 
 .images-show {
     display: flex;
     justify-content: space-evenly;
+    gap: 5%;
     margin-right: 10%;
     margin-left: 10%;
-    padding: 5% 0;
+    padding: 1% 0;
 }
 
 .image-in-show {
@@ -128,4 +134,36 @@ body {
     /* Doesn't work at all in IE */ 
     border: 10px solid white;
     border-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='50' height='50'><defs><linearGradient id='redgradient'><stop offset='0' stop-color='%23FFC14D'/><stop offset='0.80' stop-color='%23ffbf00'/><stop offset='1' stop-color='%23FF0000'/></linearGradient></defs><g id='Layer_1'><path d='M0,0 L50,0 L50,50 L0,50 L0,0 z' fill='url(%23redgradient)' width='100%' height='100%'/></g></svg>") 10% stretch;
+}
+
+.image-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: #091833;
+}
+
+.images-strip> div > h1 {
+font-size: 300%;
+}
+
+.quote-container {
+    background-color:#ffbf00;
+    display: flex;
+}
+
+.quote-block {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 800;
+    color: #ffffff;
+    padding: 30px 0;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    margin: 3% auto;
+    align-self: center;
+}
+
+.quote-block > h4 {
+    font-size: 25px;
 }
