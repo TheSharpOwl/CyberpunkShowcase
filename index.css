@@ -99,8 +99,12 @@ body {
     background-color: #ffbf00;
 }
 
-.sign-up-button:hover {
+.red-hover:hover {
     background-color: red;
+}
+
+.blue-hover:hover {
+    background-color: #0ABDC6;
 }
 
 
@@ -166,4 +170,35 @@ font-size: 300%;
 
 .quote-block > h4 {
     font-size: 25px;
+}
+
+
+.pre-footer {
+    background-color:#0ABDC6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.get-recruited {
+padding: 1%;
+margin: 2% auto;
+background-color: #FF0000;
+height: 60%;
+width: 60%;
+display: flex;
+justify-content: space-around;
+border-radius: 40px;
+border:5px solid #ffbf00;
+}
+
+.center-vertically {
+display: flex;
+align-items: center;
+}
+
+.footer {
+    background-color: #091833;
+    color: #ffff0b;
+    display: flex;
+    justify-content: center;
 }
