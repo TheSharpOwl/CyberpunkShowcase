@@ -202,6 +202,7 @@ border:5px solid #ffbf00;
 .center-vertically {
 display: flex;
 align-items: center;
+z-index: 0;
 }
 
 .footer {
